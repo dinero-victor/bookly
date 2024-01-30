@@ -59,7 +59,7 @@ html::-webkit-scrollbar-thumb {
 
 .btn {
     margin-top: 1rem;
-    margin-left: 45%;
+    justify-content: center;
     display: inline-block;
     padding: 1rem 2rem;
     border-radius: .5rem;
@@ -196,23 +196,22 @@ html::-webkit-scrollbar-thumb {
 }
 
 .header .header-2 {
-    background: var(--green);
-    position: fixed;
+    background: var(--dark-color);
+    font-size: 1.9rem;
+    gap: 2rem;
     width: 100%;
-    top: 12%;
-    z-index: 1;
-    margin-bottom: 100rem;
 }
 
 .header .header-2 .navbar {
     text-align: center;
+    position: relative;
 }
 
 .header .header-2 .navbar a {
     color: #fff;
     display: inline-block;
     padding: 1.5rem;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
 }
 
 .header .header-2 .navbar a:hover {
@@ -555,7 +554,7 @@ a .btn {
 /* media queries */
 @media (max-width:991px) {
     html {
-        font-size: 55%;
+        font-size: 50%;
     }
 
     .header .header-1 {
